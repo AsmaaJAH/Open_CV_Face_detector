@@ -1,0 +1,32 @@
+Please make sure to follow the video instructions to avoid a global issue reported here:
+https://github.com/marcelotduarte/cx_Freeze/issues/1275
+
+That issue usually happens while convertting ML & AI projects that contains external dependencies, or data-bases , or packedgets
+that are very popular and commonly used in Ml like "OpenCV"
+
+We tried to use programs like :
+1. PyInstaller
+2. auto py to exe
+3. cx_Freeze
+
+and followed these links instructions:
+https://stackoverflow.com/questions/45309962/cx-freeze-cannot-input-excelformulaparser?fbclid=IwAR1LAvbjodizPvTTkaVvh8KWJ00v-KY9SeH4A64ZzgQkdmv9DWCC3E8Cqas
+https://stackoverflow.com/questions/49024118/how-to-make-exe-with-cx-freeze-including-pyqt5-and-opencv-on-windows-10?fbclid=IwAR3UOmJ-ditZJQMl6TWZ5j8HICMkyXqrUfHI9CZ98LUDgEyKbkokhLCUVEo
+https://www.youtube.com/watch?v=FznuV-p3MM0&list=PLUgFQtEcQLl_TmkNjA-UHg-PNABqTuXPb&index=43
+https://www.youtube.com/watch?v=bqNvkAfTvIc
+https://dev.to/eshleron/how-to-convert-py-to-exe-step-by-step-guide-3cfi
+
+And this solved the issue
+So, we summurized the solution with steps in a recorded well-organized short videos for the speech and face-recognition projects
+the program is working so fine in the terminal or in the pycharm or anaconda or any other python environment
+and when converting it to ".exe" file, it will automatecally import & open any possible data files that it will need to run.
+
+
+just download the desired project: "Face recognition " or "speech recogniition",
+install the program, and double click on the .exe standalone file from your PC,
+and it will immediately work precisely correct.
+
+Thank You.
+
+
+
